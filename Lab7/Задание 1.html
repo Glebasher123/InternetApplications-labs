@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+   select {
+    width: 300px; /* Ширина списка в пикселах */
+   }
+ </style>
+</head>
+<body bgcolor="#fe01df">
+<form name="ass" action="mailto:адрес вашей электронной почты">
+	<font color="#01fe20" face="Arial" size="5"><p align="center">Форма регистрации</p></font>
+	
+	<table  align="center">
+	
+			<tr>
+				<td width="150"><p align="right">Имя</td>
+				<td width="300" colspan="2"><input type="text" size="38"></td>
+			</tr>
+
+			<tr>
+				<td><p align="right">E-mail</td>
+				<td colspan="2"><input type="text" size="38"></td>
+			</td>
+
+			<tr>
+				<td><p align="right" >Пароль</td>
+				<td colspan="2"><input type="password" name="a1" size="38"></td>
+			</tr>
+
+			<tr>
+				<td><p align="right">Повторить пароль</td>
+				<td colspan="2"><input type="password"  name="a2" size="38"></td>
+			</tr>
+
+			<tr>
+				<td><p align="right">Пол</td>
+				<td><input type="radio" name="terms" value="yes">м</td>
+				<td><input type="radio" name="terms" value="yes">ж</td>
+			</tr>
+
+			<tr>
+				<td><p align="right">Увлечение</td>
+				<td colspan="2">
+				<select>
+					<option>Компьютер</option>
+					<option>Наркотики</option>
+					<option>Футбол</option>
+					<option>Вязание крестиком</option>
+					<option>Игры</option>
+					<option>Хоккей</option>
+					<option>Вождение</option>
+					<option>Музыка</option>
+					<option>Игры</option>
+					<option>Программирование</option>
+					<option>Теннис</option>
+				</select></td>
+			</tr>
+
+			<tr>
+				<td><p align="right">Ваше пожилание</td>
+				<td colspan="2"><textarea cols="40" rows="6"></textarea></td>
+			</tr>
+
+			<tr>
+				<td><p align="right">С условиями регистрации ознакомлен</td>
+				<td colspan="2"><input type="checkbox" name="terms" value="yes"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+
+					<input type="submit" onclick="doCheck() "></td>
+				<td>
+					<input  type="reset" value="Очистить">
+				</td>
+			</tr>
+	</table>
+</form>
+<script>
+function doCheck() 
+{
+ if(ass.a1.value == ass.a2.value) 
+ { 
+  alert ("Пароли совпадают"); 
+ } 
+ else 
+ { 
+ alert ("Пароли не совпадают"); 
+ 
+ } 
+}
+</script>
+</form>	
+</body>
+</html>

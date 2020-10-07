@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+   select {
+    width: 100px; /* Ширина списка в пикселах */
+   }
+ </style>
+</head>
+<body>
+<form>
+	<font color="blue" size="7"><marquee behavior="alternate"> Анкета</marquee></font>
+	<hr size="3" color="black">
+
+	<fieldset>
+    	<legend>ФИО</legend>
+   		<p>Имя: <input size="60"></p>
+    	<p>Фамилия: <input size="55"></p>
+   </fieldset>
+<br><br>
+   <fieldset>
+    	<legend>Дата рождения</legend>
+   		<b>Число: <input size="10" input type="number" pattern="\[0-9]{10}"></b>
+    	<b>Месяц: <select>
+					<option>Январь</option>
+					<option>Февраль</option>
+					<option>Март</option>
+					<option>Апрель</option>
+					<option>Май</option>
+					<option>Июнь</option>
+					<option>Июль</option>
+					<option>Август</option>
+					<option>Сентябрь</option>
+					<option>Октябрь</option>
+					<option>Ноябрь</option>
+					<option>Декабрь</option>
+				</select></b>
+    	<b>Год: <input size="10" input type="number"></b>
+   </fieldset>
+<br><br>
+   <fieldset>
+    	<legend>Пол</legend>
+   		<p><input type="radio" size="40">Муж</p>
+    	<p><input type="radio" size="40">Жен</p>
+   </fieldset>
+<br>
+  	<input type="submit" value="Ок">
+	<input type="reset" value="Очистить">
+	</form>
+</body>
+</html>
