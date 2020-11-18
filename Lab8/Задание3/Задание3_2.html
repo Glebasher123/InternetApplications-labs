@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Регистрационная форма</title>
+</head>
+<body bgcolor="#DEBEBE">
+	<div align="center">
+		<h1>Регистрационная форма</h1>
+		<form name="form" action="mailto:??????">
+			Имя: <input type="text" name="name" title="Введите своё Имя" maxlength="12"><br><br>
+			Фамилия: <input type="text" name="surname" title="Введите свою Фамилию" maxlength="15"><br><br>
+			Пароль: <input type="password" name="pass" title="Введите свой будущий пароль"><br><br>
+			Страна проживания:
+			<select>
+				<option>Беларусь</option>
+				<option>Россия</option>
+				<option>Украина</option>
+				<option>Польша</option>
+				<option>Литва</option>
+				<option>Латвия</option>
+				<option>Эстония</option>
+				<option>Германия</option>
+			</select>
+			<br><br>
+			Дата рождения:
+			<div style="display: inline-block;">
+				день: 
+			<select>
+				<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+			</select>
+			месяц:
+			<select>
+				<option>Январь</option>
+				<option>Февраль</option>
+				<option>Март</option>
+				<option>Апрель</option>
+				<option>Май</option>
+				<option>Июнь</option>
+				<option>Июль</option>
+				<option>Август</option>
+				<option>Сентябрь</option>
+				<option>Октябрь</option>
+				<option>Ноябрь</option>
+				<option>Декабрь</option>
+			</select>
+			год: <input type="text" name="year" value=" " size="10" maxlength="5"><br>
+			</div><br><br>
+			Пол:
+			<input type="radio" name="answer" checked>мужской
+			<input type="radio" name="answer">женский<br><br>
+			Мои интересы:
+			<input type="checkbox" name="terms" value="компьютеры" checked>компьютеры
+			<input type="checkbox" name="terms" value="спорт">спорт
+			<input type="checkbox" name="terms" value="игры">игры
+			<input type="checkbox" name="terms" value="животные">животные
+			<input type="checkbox" name="terms" value="танцы">танцы
+			<br><br>
+			Примечания:<br>
+			<textarea name="basictext" rows="7" cols="45" placeholder="Надеюсь, Вам понравится моё резюме!"></textarea>
+			<br><br>
+			<img src="image.jpg" width="10%">
+			<input type="reset" value="Очистить форму">
+			<input type="submit" value="Отправить форму">
+		</form>
+	</div>
+</body>
+</html>
