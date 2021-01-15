@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<CD>
+	<cd number="432"> 
+		<title>Africa</title> 
+			<title number="1">
+				<name>Африка</name>
+				<feat>-</feat>
+				<duration>4:31</duration>
+				<bonus>-</bonus>
+			</title>
+
+			<title number="5">
+				<name>Давай останемся</name>
+				<feat>-</feat>
+				<duration>5:18</duration>
+				<bonus>-</bonus>
+			</title>
+			
+			<title number="10">
+				<name>Красному диску солнца</name>
+				<feat>Сергей Михалок</feat>
+				<duration>3:53</duration>
+				<bonus>-</bonus>
+			</title>
+			
+			<title number="11">
+				<name>Странная жизнь</name>
+				<feat>-</feat>
+				<duration>1:45</duration>
+				<bonus>+</bonus>
+			</title>
+			<artist>BeZBileta</artist>
+		<tracks total="20"> </tracks>
+	</cd>
+
+	<cd number="97"> 
+		<title>HeartBreaker</title> 
+		<Subtitle>Sixteen Classic Performances</Subtitle>  
+		<artist>Pat Benatar</artist>
+		<tracks total="16"> </tracks>
+	</cd>
+</CD>

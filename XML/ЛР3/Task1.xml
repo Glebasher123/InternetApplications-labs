@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Task1.xsd">
+    <message number="10" date="2009-10-29" whoam="whoam" from="Ольга Петрова">
+Не забудь купить молоко по дороге с работы домой
+</message>
+</note>

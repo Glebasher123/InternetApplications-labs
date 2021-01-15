@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Video SYSTEM "Video.dtd">
+<Harakter>
+	<Osnovnie proizvoditel="ASUS " model="EAH6670/DI/512MD5 " dlina=" 170 мм ">
+	</Osnovnie>
+	<Video videopamyat="512 МБ" RAMDAC="400 МГц, 10 бит на канал." razreshenie="2560x1600" HDCP="Есть (1080p)" API="DirectX 11 и OpenGL 3.2 ">
+	</Video>
+	<Pamyat tip="GDDR5" shina="128 бит" chastota="1000 МГц">
+	</Pamyat>
+	<Config chip="Radeon HD 5670" techprocess="40 нм" chastota_chipa="775 МГц" kol-vo_pixelei="20,8 блоков" kol-vo_processorov="400 ">
+	</Config>
+	<Razemi porti="D-sub,dvi">
+	</Razemi>
+	<Interface interface_name="PCI Express"></Interface>
+	<Ohlazhdenie upravlenie="net" ohlazhdenie="activ" konstrukcia_ohlazhdeniya="Блокирует соседний вход">
+	</Ohlazhdenie>
+	<Pitanie razem="net">
+	</Pitanie>
+	<Sovmestimost pitanie="400 Вт" vichisleniya="ATI Stream" os="Windows XP x64, Windows XP, Windows MCE 2005, Windows Vista, Windows 7">
+	</Sovmestimost>
+	<Logistika razmer="30.5 x 22.5  5.7 см" ves="0.755 кг">
+	</Logistika>
+</Harakter>
+

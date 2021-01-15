@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Task4.css"?>
+<LB1_6 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Task4.xsd">
+    <pharmacy>
+        <medicine id="1">
+            <medicineName>Тантум верде форте</medicineName>
+            <price>300 тугриков</price>
+            <weigth>20 гр.</weigth>
+            <country>Беларусь</country>
+            <sideEffects>
+                <name>Головокружение</name>
+                <name>Тошнота</name>
+                <name>Температура</name>
+                <name>Слабость</name>
+                <name>Усталость</name>              
+            </sideEffects>
+        </medicine>
+        <medicine id="2">
+            <medicineName>Анальгин</medicineName>
+            <price>2 грывнi</price>
+            <weigth>10 гр.</weigth>
+            <country>Украина</country>
+            <sideEffects>
+                <name>Сонность</name>
+                <name>Отсутствие запахов</name>
+                <name>Температура</name>
+                <name>Слабость</name>
+                <name>Усталость</name>              
+            </sideEffects>
+        </medicine>
+        <medicine id="3">
+            <medicineName>Камбробене</medicineName>
+            <price>2 даллара</price>
+            <weigth>13 гр.</weigth>
+            <country>Германия</country>
+            <sideEffects>
+                <name>Сонность</name>
+                <name>Удушение</name>
+                <name>Температура</name>
+                <name>Судороги</name>
+                <name>Смерть</name>             
+            </sideEffects>
+        </medicine>
+    </pharmacy>
+</LB1_6>

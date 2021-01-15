@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE BOOKS [
+    <!ELEMENT BOOK (NAME, PRICE, PHOTOS, NUMBER, AUTHORS, DESCRIPTION)>
+    <!ELEMENT NAME (#PCDATA)>
+    <!ELEMENT PRICE (#PCDATA)>
+    <!ELEMENT NUMBER (#PCDATA)>
+    <!ELEMENT AUTHORS (AUTHOR)>
+    <!ELEMENT AUTHOR (NAME, SURNAME)>
+    <!ELEMENT SURNAME (#PCDATA)>
+    <!ELEMENT PHOTOS (PHOTO)>
+    <!ELEMENT PHOTO (#PCDATA)>
+    <!ELEMENT DESCRIPTION (#PCDATA)>
+    <!ATTLIST NUMBER ISBN ID #REQUIRED>
+]>
+
+
+<!-- товары -->
+<BOOKS>
+    <BOOK>
+        <NAME>Евгений Онегин</NAME>
+        <PRICE>40.35$</PRICE>
+        <PHOTOS>
+            <PHOTO>https://cs11.pikabu.ru/images/previews_comm/2018-05_1/1525419609258438194.png</PHOTO>
+        </PHOTOS>
+        <NUMBER ISBN = "1">1234</NUMBER>
+        <AUTHORS>
+            <AUTHOR>
+                <NAME>Александр</NAME>
+                <SURNAME>Пушкин</SURNAME>
+            </AUTHOR>
+        </AUTHORS>
+        <DESCRIPTION>«Евге́ний Оне́гин» — роман в стихах русского писателя и поэта Александра Сергеевича Пушкина, написанный в 1823—1830 годах, одно из самых значительных произведений русской словесности. Повествование ведётся от имени безымянного автора, который представился добрым приятелем Онегина.</DESCRIPTION>
+    </BOOK>
+    <BOOK>
+        <NAME>Преступление и наказание</NAME>
+        <PRICE>44.59$</PRICE>
+        <PHOTOS>
+            <PHOTO>https://sun9-19.userapi.com/tc-gFhFE0r2rtBkTbAOxS68SELmfNJmxbMaS9w/FccGy5hqv6Q.jpg</PHOTO>
+        </PHOTOS>
+        <NUMBER ISBN = "2">1235</NUMBER>
+        <AUTHORS>
+            <AUTHOR>
+                <NAME>Федор</NAME>
+                <SURNAME>Достоевский</SURNAME>
+            </AUTHOR>
+        </AUTHORS>
+        <DESCRIPTION>«Преступление и наказание» — социально-психологический и социально-философский роман Фёдора Михайловича Достоевского, над которым писатель работал в 1865—1866 годах. Впервые опубликован в 1866 году в журнале «Русский вестник».</DESCRIPTION>
+    </BOOK>
+</BOOKS>

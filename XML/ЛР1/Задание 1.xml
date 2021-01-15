@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE Phonebook SYSTEM "pbml.dtd">
+
+<Record Number="1">
+<LastName>Глеб</LastName>
+<FirstName>Выставкин</FirstName>
+<Initials>Сергеевич</Initials>
+<Adress>проспект газеты Звезда</Adress>
+<Email>glebvystavkin@mail.ru</Email>
+<DateOfBirth Type="data">08.07.2001</DateOfBirth>
+
+</Record>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Enter you external DTD here -->
+<!ELEMENT pharmacy (medicine)+ >
+<!ELEMENT medicine (medicineName, price, weigth, sideEffects)+ >
+
+<!ELEMENT medicineName (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT weigth (#PCDATA)>
+<!ELEMENT sideEffects (#PCDATA)>
+<!ATTLIST sideEffects
+name CDATA #REQUIRED>

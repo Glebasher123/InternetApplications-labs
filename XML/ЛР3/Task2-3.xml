@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Task2-3.xsd">
+    <notes>
+        <number/>
+        <message>Не забудь купить молоко по дороге с работы домой</message>
+        <message>Я опаздываю к ужину. Пошли за молоком детей</message>
+    </notes>
+    <notes>
+        <number/>
+        <message>Поехали в Африку</message>
+        <message>В Африке много вкусных бананов</message>
+        <message>В Африке очень тепло</message>
+    </notes>
+</note>

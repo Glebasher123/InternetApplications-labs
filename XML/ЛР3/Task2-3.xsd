@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:complexType name="messageType">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:string">
+                <xsd:attribute name="date" type="xsd:date" use="required" />
+                <xsd:attribute name="from" type="xsd:string" use="required" />
+                <xsd:attribute name="number" type="xsd:integer" use="required" />
+                <xsd:attribute name="whom" type="xsd:string" use="required" />
+            </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="numberType">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:integer">          
+            </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:element name="note">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="notes" minOccurs="0" maxOccurs="2">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="number"/>
+                            <xsd:element name="message" minOccurs="1" type="messageType"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

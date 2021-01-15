@@ -1,0 +1,43 @@
+pharmacy
+{
+display: block;
+margin-left: 20px;
+}
+medicine{
+	display: inherit;
+}
+price{
+	display: inherit;
+}
+weigth{
+	display :inherit;
+}
+conutry{
+	display: inherit;
+}
+sideEffects{
+	margin-left: 40px;
+	margin-right: 500px;
+	display: inherit;
+	border-style: dashed;
+}
+sideEffects name{
+	text-align: center;
+	display: inherit;
+	color: crimson;
+}
+sideEffects name:nth-child(2n){
+	color: darkblue;
+}
+medicineName
+{
+letter-spacing: 10px;
+color: rebeccapurple;
+font-size: 30px;
+}
+LB1_6{
+	background-image: url(wtf.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}

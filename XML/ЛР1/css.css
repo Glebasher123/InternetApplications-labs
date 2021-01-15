@@ -1,0 +1,14 @@
+Литература{
+	text-align: center;
+	background: Coral;
+}
+название{
+	margin-top: 12pt;
+	font-size: 10pt;
+}
+страниц{
+	font-style: italic;
+}
+Автор{
+	font-weight: bold;
+}

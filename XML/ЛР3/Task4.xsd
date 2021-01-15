@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="medicine">
+    	<xsd:attribute name="id" type="xsd:integer" use="required"/>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="medicineName" type="xs:string"/>
+                <xsd:element name="price" type="xs:string"/>
+                <xsd:element name="weigth" type="xs:string"/>
+                <xsd:element name="medicineName" type="xs:string"/>
+                <xsd:element name="country" type="xs:string">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="name"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

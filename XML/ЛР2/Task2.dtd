@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Enter you external DTD here -->
+<!ELEMENT Haracter (Osnovnie,Video,Pamyat,Config,Razemi,Interface,Ohlazhdenie,Pitanie,Sovmestimost,Logistika)+ >
+<!ELEMENT Osnovnie (#PCDATA)>
+<!ATTLIST Osnovnie
+proizvoditel CDATA #REQUIRED
+model CDATA #REQUIRED
+dlina CDATA #REQUIRED >
+<!ELEMENT Video (#PCDATA)>
+<!ATTLIST Video
+videopamyat (256|512|1024) #REQUIRED
+RAMDAC CDATA #REQUIRED
+razreshenie CDATA #REQUIRED
+HDCP CDATA #REQUIRED
+API CDATA #REQUIRED >
+<!ELEMENT Pamyat (#PCDATA)>
+<!ATTLIST Pamyat
+tip (ddr2|ddr3|ddr5) #REQUIRED
+shina (128|256|448) #REQUIRED
+chastota CDATA #REQUIRED >
+<!ELEMENT Config (#PCDATA)>
+<!ATTLIST Config
+chip CDATA #REQUIRED
+techprocess CDATA #REQUIRED
+chastota_chipa CDATA #REQUIRED
+kol-vo_pixelei CDATA #REQUIRED >
+kol-vo_processorov CDATA #REQUIRED >
+<!ELEMENT Razemi (#PCDATA)>
+<!ATTLIST Razemi
+porti CDATA #REQUIRED >
+<!ELEMENT Interface (#PCDATA)>
+<!ATTLIST Interface
+interface_name CDATA #REQUIRED >
+<!ELEMENT Ohlazhdenie (#PCDATA)>
+<!ATTLIST Ohlazhdenie
+upravlenie (da|net) #FIXED "net"
+ohlazhdenie (activ|passiv) #REQUIRED>
+konstrukcia_ohlazhdeniya CDATA #REQUIRED >
+<!ELEMENT Pitanie (#PCDATA)>
+<!ATTLIST Pitanie
+razem (da|net) #FIXED "net" >
+<!ELEMENT Sovmestimost (#PCDATA)>
+<!ATTLIST Sovmestimost
+pitanie CDATA #REQUIRED
+vichisleniya CDATA #REQUIRED
+os CDATA #REQUIRED>
+<!ELEMENT Logistika (#PCDATA)>
+<!ATTLIST Logistika
+razmer CDATA #REQUIRED
+ves CDATA #REQUIRED>

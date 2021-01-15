@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "note.dtd">
+<note>
+	<message number="a1"  from="Ольга Петрова"
+	alert="несрочно">
+	<!--&today;-->Не забудь купить молоко по дороге с работы
+	домой </message>
+	<message number="a2"  from="Саша Петров"
+	alert="срочно">
+	<!--&today;--> Помоги мне сделать домашнее задание
+	</message>
+	<message number="a3"  from="Кристина Петрова">
+	<!--&today;--> Поиграй со мной</message>
+	<outcome msg="a1">Хорошо, я зайду в магазин</outcome>
+	<outcome msg="a2">Обязательно помогу</outcome>
+	<outcome msg="a3">Конечно, поиграю</outcome>
+	<source></source>
+</note>
